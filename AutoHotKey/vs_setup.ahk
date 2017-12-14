@@ -53,3 +53,9 @@ SetTitleMatchMode, 2
 	Send ^e
 	Send c
 	return
+
+; Uncomment out a line or selection
+^+/::
+	Send ^e
+	Send u
+	return
